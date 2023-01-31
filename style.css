@@ -1,0 +1,44 @@
+.header {
+  padding: 10px; 
+  text-align: left; 
+  background: #4F3F4D; 
+  color: white; 
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+body {
+	background-color: rgb(225,191,226);
+}
+
+#tb {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tb td, #tb th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tb tr:nth-child(even){background-color: #f2f2f2;}
+
+#tb tr:hover {background-color: #ddd;}
+
+#tb th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:  #4F3F4D ;
+  color: white;
+}
+
+.body{
+	/* background-image: url("book2.jpg");  */
+	/* object-fit: none; */
+   /* object-position: center top; */
+   background-repeat: no-repeat, repeat;
+}
